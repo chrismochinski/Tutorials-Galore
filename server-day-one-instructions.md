@@ -109,16 +109,16 @@ node_modules/ <br />
 <img src="slide11.png" alt="goodBrowser" with="400"><br /><br />
 
 
-
 ---
+
+11. # COMMIT BEFORE GOING FURTHER!
 ---
 
 # DAY TWO !!!
 
 <br />
 <br />
-
-This one
+( to be continued... )
 
 
 
