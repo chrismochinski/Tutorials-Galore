@@ -46,6 +46,8 @@
 
 4. ## Get your butt back over to Terminal and enter:<br />
     - ***npm init --yes*** <br /><br />
+    - this initializes your PACKAGE JSON
+    - the --yes answers YES to all questions (a few will come in if you don't include this) 
 
     ### this is what will appear: <br /><br />
 <img src="slide5-npm-init---yes.png" alt="inityes" width="400"/><br />
@@ -106,9 +108,17 @@ node_modules/ <br />
 
 <img src="slide11.png" alt="goodBrowser" with="400"><br /><br />
 
-## Thanks for reading! Good luck and, if you have any questions, you know who to talk to. Um...somebody else.
 
 
+---
+---
+
+# DAY TWO !!!
+
+<br />
+<br />
+
+This one
 
 
 
