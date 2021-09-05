@@ -78,6 +78,10 @@
 
 <img src="slide8server.png" alt="server" width="500"/><br /> <br />
 
+...There's one other line I originally forgot. It's this on (in the middle). This is actually quite crucial. <br />
+
+<img src="the-forgotten-slide.png" alt="forgotten-slide" width="500"/><br /> <br />
+
 ---
 
 8. ## in your .gitignore file, type this:
@@ -113,13 +117,6 @@ node_modules/ <br />
 
 11. # COMMIT BEFORE GOING FURTHER!
 ---
-
-# DAY TWO !!!
-
-<br />
-<br />
-( to be continued... )
-
 
 
 
