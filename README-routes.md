@@ -6,7 +6,7 @@
 <br />
 ---
 
-1. ## In your project folder, create a NEW folder in the server directory called "routes"
+1. ### In your project folder, create a NEW folder in the server directory called "routes"
 
 <br />
 <img src="./routes-images/makeRoutesFolder.png" alt="treeNow" width="300"/><br />
@@ -15,7 +15,7 @@
 <br />
 
 
-2. ## Make a file for your new route INSIDE that folder - name it: FILENAME.router.js (replace FILENAME with whatever your /subdirectory is called to keep it simple). You may have to do this for several routes if applicable...
+2. ### Make a file for your new route INSIDE that folder - name it: FILENAME.router.js (replace FILENAME with whatever your /subdirectory is called to keep it simple). You may have to do this for several routes if applicable...
   <br />
 
    <img src="./routes-images/2routerFile.png" alt="treeNow" width="450"/><br />

@@ -65,9 +65,24 @@
 
 ---
 
-6. ## Back in TERMINAL, type the following: <br />
-***npm install express***. <br /> <br />
-    This will do some stuff to your tree and will drop a version at the bottom of your package.json file (mine says some crap ending with **"express": "^4.17.1"**).<br />
+6. ## Back in TERMINAL, type the following...
+
+        npm install express
+
+<br />
+
+## AND...
+
+
+        npm install pg
+
+
+<br />
+
+
+##### (↑↑ added after week 9 ↑↑)
+
+This will do some stuff to your tree and will drop a version at the bottom of your package.json file (mine says some crap ending with **"express": "^4.17.1"**).<br />
 
 <img src="slide7express.png" alt="express" width="500"/><br /> <br />
 
