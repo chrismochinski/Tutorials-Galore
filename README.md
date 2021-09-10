@@ -89,20 +89,24 @@ This will do some stuff to your tree and will drop a version at the bottom of yo
 ---
 
 7. ## Good luck memorizing THIS stuff...
-    Go to your server.js and type all of this (and feel free to disregard my clumsy comments) ...<br />
+    When we started using servers, we used type THIS stuff...<br />
 
 <img src="slide8server.png" alt="server" width="500"/><br /> <br />
 
-...There's one other line I originally forgot. It's this on (in the middle). This is actually quite crucial. <br />
+Now that we are using fancy databases and stuff, we do something more like THIS. 
 
-<img src="the-forgotten-slide.png" alt="forgotten-slide" width="500"/><br /> <br />
+<img src="newserverheadstuff.png" alt="forgotten-slide" width="500"/><br /> <br />
 
 ---
 
-8. ## in your .gitignore file, type this:
+8. ## in your .gitignore file, we STARTED typing this:
 
 node_modules/ <br />
-.DS_Store
+.DS_Store <br />
+
+## Now that we're doing fancy database stuff, I've seen THIS: <br />
+
+<img src="newgitignore.png" alt="goodindex" width="200"><br /><br />
 
 ---
 
@@ -119,7 +123,7 @@ node_modules/ <br />
 
 10. # And here is what you should see in your index.html with the above steps - 
 
-<img src="slide10success.png" alt="goodindex" with="500"><br /><br />
+<img src="slide10success.png" alt="goodindex" width="500"><br /><br />
 
 ---
 
