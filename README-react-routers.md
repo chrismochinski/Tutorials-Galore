@@ -14,15 +14,17 @@
 ### - IF NO SERVER:
 
         npm start
-### - IF *YES* SERVER:
+### - IF *YES* SERVER...
 
         npm install
+
+### - Open TWO terminal tabs and run each of these (keep them running):
 
         npm run server
 
         npm run client
 
-### Go Look at your package.json...
+### ...Go Look at your package.json...
 
 <br />
 <img src="./react-routes-images/1dependencies.png" alt="1" width="320"/><br />
@@ -77,6 +79,7 @@
 <hr />
 
 12. ## Here's how it works - the PUSH function puts it into the "array" (sort of) and the last item in the array is what will render. 
+<br />
 
-#### Thus - whatever you push, you go there. I think. Kinda. More on this later...<br />
+### ...Thus - whatever you push, you go there. I think. Kinda. More on this later...<br />
 <img src="./react-routes-images/12goToGetWholePage.png" alt="12" width="420"/><br />
