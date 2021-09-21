@@ -7,8 +7,8 @@
 
 1. ### STARTUP
 
-#### - _fork as usual_
-#### - _clone as usual_
+## - _fork as usual_
+## - _clone as usual_
 <br />
 
 ### - IF NO SERVER:
