@@ -33,9 +33,12 @@
 
 2. ## Add this import line on your main page (_likely App.js_):
 
+
 <br />
 
-<img src="./react-routes-images/2hashRouter.png" alt="2" width="500"/><br />
+<img src="./react-routes-images/2hashrouter.png" alt="2" width="500"/>
+
+<br />
 
 #### ...which loosely translates to "import hash router, but let's rename is Router (and Route)"<br />
 <hr />
