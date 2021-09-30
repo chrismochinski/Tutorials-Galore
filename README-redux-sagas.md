@@ -29,106 +29,137 @@ To start, MAKE SURE IT IS SET UP AS THUS so your central saga function cooperate
 
 ---
 
-1. Make sure things are set up like THIS or it'll break:
+1. Make sure things are set up like THIS (toward the end of the index.js file) or it'll break:
 
 <br />
 
-<img src="./API-template-images/1.png" alt=".env" width="300"/>
+<img src="./sagas-images/1.png" alt="1" width="400"/>
 
 <br />
 
-#### _…your API keys are going to go in here_
+#### _…...and then your..*ahem*...sagaMiddleware Entrypoint...where all your watchers will go (closer to top of your index.js file):_
 <br />
-<hr />
-
-2. ## Inside your .gitignore, type: :
-<img src="./API-template-images/2.png" alt="gitignore env" width="300"/><br />
-
-## And this goes in your .env file (with whatever API key(s) you’re using)
-<br />
-
-<img src="./API-template-images/2b.png" alt="API syntax" width="400"/><br />
-
-
-#### _…this is so your project won’t push your secret stash of secrets to GitHub (GitHub scans for this stuff and will blow up your car if you screw this up)_
-<br />
-<hr />
-
-3. ## Then, in project folder in terminal:
-
-        npm install dotenv
-        
-<hr />
-
-4. ## IN SERVER.JS:
-<img src="./API-template-images/4.png" alt="Server js" width="500"/><br />
-
-#### _…this is a template of what you must add. That “require” line is to let your project know that is there, and the express route will be for what you’re working on. Might be a router instead ¯\_(シ)_/¯_
-<br />
-
-#### _Client makes request from server, server makes request from router if applicable, router makes request from “your database” which, in this case, happens to be your API (Giphy for now)…then the “database” sends info back through that path back up to the client!_ 
+<img src="./sagas-images/1a.png" alt="1" width="500"/>
 
 <br />
 <hr />
 
-5. ## Type an axios request and type in your necessary crap like this ON SERVER SIDE (cuz it’s a secret…no client side)…in this case, it’s in my router:
+2. ## Import!:
+<img src="./sagas-images/2.png" alt="import" width="400"/><br />
 
-<img src="./API-template-images/5.png" alt="axios Server Side" width="800"/><br />
+<hr />
 
-#### _…check out the top there, too. You aren’t IMPORTING Axios…you’re requiring it._
+3. ## Inside that watcher from step 1, throw a takeEvery function in (that'll watch for a call):
+<img src="./sagas-images/3.png" alt="import" width="430"/><br />
+<hr />
 
-#### _Also, for good measure, here’s the SERVER file (simple enough:)_
-<br />
-<img src="./API-template-images/5b.png" alt="server file" width="500"/><br />
+
+4. ## And add a function in the same file, with a console.log to test, as thus:
+
+<img src="./sagas-images/4.png" alt="import function" width="500"/><br />
+
 <br />
 <hr />
 
-6. ## Now the CLIENT SIDE…
+5. ## Add the appropriate, corresponding TYPE over in your component to call that one...
 
-<img src="./API-template-images/6.png" alt="client sIde" width="500"/>
+<img src="./sagas-images/5.png" alt="axios Server Side" width="800"/><br />
+
+## _…it's like a shortcut in reducer world!!!_
+
+<img src="./sagas-images/5b.png" alt="console success" width="800"/><br />
+<br />
+<hr />
+
+6. ## so THIS...
+
+<img src="./sagas-images/6.png" alt="before" width="550"/>
 <br /><br />
 
-## The resulting data is going to be wild (console):
+## BECOMES:
 
-<img src="./API-template-images/6b.png" alt="console yikes" width="650"/>
+<img src="./sagas-images/6b.png" alt="after" width="500"/>
 <br />
-<br />
+<hr />
 
-## You can plug {JSON.stringify(result)} into your render section and see something like this:
-<img src="./API-template-images/6c.png" alt="dom double yikes" width="500"/>
+7. ## And here is the index.js side (don't miss the import...):
+
+<img src="./sagas-images/7.png" alt="index js side" width="480"/><br />
+<br />
+<hr />
+
+8. ## Then put this 'put' method hre in the import (not a traditional put):
+<img src="./sagas-images/8.png" alt="put" width="500"/><br />
 <br />
 <hr />
 
 
-7. ## Unfold the stuff in the console. Look at it. Look for image attributes and URLs and stuff. Remember the path. It’s like a property of an object…
-<img src="./API-template-images/7.gif" alt="console gif" width="420"/><br />
+9. ## ...and then, instead of DISPATCH...you use put (like imported):
+<img src="./sagas-images/9.png" alt="final" width="480"/><br />
 
-#### _…Look closely. Image tags! Perhaps we could use:_
 
-<img src="./API-template-images/7b.png" alt="important path" width="300"/><br />
+## _...don't forget the .data that grabs that property SPECIFICALLY...the whole thing will be a mess of stuff in the console...this may take a little trial and error_
+<br />
 <hr />
 
 
-<hr />
-
-8. ## NOW…LET’S RENDER!!
-<img src="./API-template-images/8.png" alt="render" width="600"/><br />
-
-### _…In this case, we saved .data.data.iamge_origin_url (which translated to an image path, complete with quotes!!) to the above._
+10. ## Now - ERROR CATCHIG! The 'try catch':
+<img src="./sagas-images/10.png" alt="put" width="500"/><br />
 <br />
 
-## You'll see a BUNCH of versions of the gif...even videos, thumbnails, all kinds of stuff to pick from. Just treat it like nested object properties.
+
+## SAGAS/YIELD EXPLANATION:
+
+_Sagas is helpful for complex situations and asynchronous requests. There are extra things…like “forking” and “taking”…we are using “takeEvery”. The “put” function expects a “yield” because, under the hood, it schedules that “put” to happen. The “dispatch” sounds pretty synchronous._
+
+### Now we post!!!!!
+<br />
+<hr />
 
 <hr />
 
-9. ## THE FINAL APP.JS PAGE IN ALL ITS GLORY…
-<img src="./API-template-images/9.png" alt="final" width="480"/><br />
+
+11. ## From app.js side:
+<img src="./sagas-images/11.png" alt="put" width="500"/><br />
+<br />
+<hr />
 
 
-## I hope this helps make sense of how this stuff works. Do your reading and research, consult the API documentation, figure out the endpoints...MASTER each API you want to use.
+12. ## Index.js side starting out:
+<img src="./sagas-images/12.png" alt="put" width="500"/><br />
 <br />
 
-# ...and don't forget to HAVE FUN
+_...the "action" argument we sent over is BOTH TYPE AND PAYLOAD...you need to do act4ion.type and/or action.payload to specify_
+
+<br />
+<hr />
 
 
 
+13. ## THEN WE MAKE THE ACTION/PAYLOAD STUFF HAPPEN!!! Sorry for the all caps. Too lazy to delete.
+<img src="./sagas-images/13.png" alt="put" width="500"/><br />
+<br />
+<hr />
+
+/////////////////////////////////////////
+/////////not done
+
+
+
+14. ## Then put this 'put' method hre in the import (not a traditional put):
+<img src="./sagas-images/8.png" alt="put" width="500"/><br />
+<br />
+<hr />
+
+
+15. ## Then put this 'put' method hre in the import (not a traditional put):
+<img src="./sagas-images/8.png" alt="put" width="500"/><br />
+<br />
+<hr />
+
+
+
+16. ## Then put this 'put' method hre in the import (not a traditional put):
+<img src="./sagas-images/8.png" alt="put" width="500"/><br />
+<br />
+<hr />
