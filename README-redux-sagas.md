@@ -136,30 +136,37 @@ _...the "action" argument we sent over is BOTH TYPE AND PAYLOAD...you need to do
 
 
 
-13. ## THEN WE MAKE THE ACTION/PAYLOAD STUFF HAPPEN!!! Sorry for the all caps. Too lazy to delete.
+13. ## Now the action/payload stuff happens!!
 <img src="./sagas-images/13.png" alt="put" width="500"/><br />
-<br />
-<hr />
 
-/////////////////////////////////////////
-/////////not done
+We are assigning newElement to whatever comes over as the payload.
+We are doing an axios post OF that element.
+We are doing a put if the type is FETCH_ELEMENTS.
 
-
-
-14. ## Then put this 'put' method hre in the import (not a traditional put):
-<img src="./sagas-images/8.png" alt="put" width="500"/><br />
-<br />
 <hr />
 
 
-15. ## Then put this 'put' method hre in the import (not a traditional put):
-<img src="./sagas-images/8.png" alt="put" width="500"/><br />
+14. ## Now do the error wrap ("try catch")…and call action whatever the heck you want while you’re at it:
+<img src="./sagas-images/14.png" alt="put" width="500"/><br />
+<br />
+<hr />
+
+# **DELETE TIME!!** 
+## Two simple screengrabs for delete. Copy away (change the variables and stuff)
+<br />
+
+15. ## Client side (referencing fruit project now, client side, COMPONENT or app.js…):
+<img src="./sagas-images/15.png" alt="put" width="500"/><br />
 <br />
 <hr />
 
 
 
-16. ## Then put this 'put' method hre in the import (not a traditional put):
-<img src="./sagas-images/8.png" alt="put" width="500"/><br />
+16. ## Now INDEX.JS side (where your routers and stuff go):
+<img src="./sagas-images/16.png" alt="put" width="500"/><br />
 <br />
 <hr />
+
+# **That's that! No PUT route yet...** 
+## ...don't forget to have fun :) 
+<br />
