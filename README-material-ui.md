@@ -24,8 +24,7 @@ This will put together the basics, but make sure your `index.js` is something li
 
 MUI uses "Robato". Type this into the head section of your index.html to source this font in from Google Fonts. I throw mine right above my title:
 
-    <link                                                                   rel="stylesheet"                                                                      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"                                  />                                                                                                                                
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">                                                                                                                               
 ---
 3. ## Fire the project up in terminal:
 
