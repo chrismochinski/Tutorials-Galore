@@ -2,7 +2,7 @@
   
 #### _This is currently the day-one doc for v5 based on Matt's lecture_
 ---
-### UPDATE (11/29/21) - React Router V6 changes some stuff here (but much is still similar). `Switch` is no longer used and has been replaced by `Routes`. I'll update this to V6 soon and will remove this message when I do!
+### UPDATE (11/29/21) - React Router V6 changes some stuff here (but much is still similar). `Switch` is no longer used and has been replaced by `Routes`. `useHistory` has essentially been replaced by `useNavigate`. Etc. I'll update this to V6 soon and will remove this message when I do!
 ---
 
 1. ### STARTUP
