@@ -1,8 +1,8 @@
-# REACT ROUTERS
+# REACT ROUTERS (v5)
   
-#### _this doc is subject to change...it's only DAY ONE..._
+#### _This is currently the day-one doc for v5 based on Matt's lecture_
 ---
-### React Router - full cheat sheet from  Matt's Day 1 Lecture!
+### UPDATE (11/29/21) - React Router V6 changes some stuff here (but much is still similar). `Switch` is no longer used and has been replaced by `Routes`. I'll update this to V6 soon and will remove this message when I do!
 ---
 
 1. ### STARTUP
