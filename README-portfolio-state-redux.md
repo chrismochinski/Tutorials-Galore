@@ -136,7 +136,7 @@ Whoopsie doodle - I have a footer component with these buttons as well. Let's th
 
 Now that it's imported, we can copy the functions and useSound stuff exactly.
 
-## Check it out HERE: [https://chrismochinski.com](https://chrismochinski.com)
+## Check it out HERE: <a href="https://chrismochinski.com" target="_blank">chrismochinski.com</a>
 
 ---
 
