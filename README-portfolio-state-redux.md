@@ -150,6 +150,6 @@ Now that it's imported, we can copy the functions and useSound stuff exactly.
 
 
 _[My GitHub](https://github.com/chrismochinski)_ <br />
-_[My LinkedIn](https://www.linkedin.com/in/chrismochinski/)_ 
+_[My LinkedIn](https://www.linkedin.com/in/chrismochinski/)_ <br />
 _[My Twitter (@HolyMosesMusic)](https://twitter.com/holymosesmusic)_ <br />
 
