@@ -1,0 +1,98 @@
+# <b>Your Very Own GitHub Landing Page!</b>
+### This quick n' dirty tutorial explains how I threw my gosh dang landing page onto the ol' information superhighway. 
+
+<br />
+
+If you're a Prime student, you likely had to do the 'resume challenge' to get started. As a result, you'll have a repo at `YOURNAME.github.io`. This is where we're gonna drop that new landing page. In any event ... _**Let's get crackin'!!**_
+
+## 1. Build a landing page
+
+I won't go into detail here - the possibilities are endless! Take your time and make it awesome. Definitely have a repository for this project and commit often.
+
+---
+
+## 2. Building the page directory
+
+##### _There is some terminology here that I don't know, so I'm going to be descriptive_
+
+
+When you're satisfied with your new landing page and are ready to deploy, run this following in the terminal (while inside the project directory):
+
+        npm run build
+
+You'll see some shiny new files appear...
+
+<img src="./github-landing-page-images/buildResult.png" alt="VSC build" width="240px"/><br />
+
+---
+
+## 3. Copy those files to your clipboard
+
+Go find those files on your computer the old fashioned way and `CMD + C` them (Mac).
+
+<img src="./github-landing-page-images/buildGif.gif" alt="copying build files" width="240px"/><br />
+
+---
+
+## 4. Past them into that folder in your ol' GitHub resume directory
+
+_Prime students only:_ When you started with Prime, you built the "resume challenge" and dropped that resume at `YOURNAME.github.io`. Now that your landing page is ready for some eyeballs, it's going to replace that resume. 
+
+_Everyone else:_ If you have anything in your `YOURNAME.github.io` directory, clean it out. Dump it. If you're obsessive like me, dump it into another temporary folder for safekeeping. THEN - paste your newly copied `build` files into that directory. 
+
+<img src="./github-landing-page-images/pasteBuild.gif" alt="paste build files" width="480px"/><br />
+
+---
+
+## 5. Push it real good
+
+Finally, push the project up to that same original place. By default, it'll likely be:
+
+        git push origin master
+
+or possibly...
+
+        git push origin main
+
+---
+
+## 6. Chiggity check it
+
+Now is a good time to make sure things are live!
+
+<img src="./github-landing-page-images/browserTest.gif" alt="check browser" width="600px"/><br />
+
+## **NOTE**:
+
+If you're getting a white screen, take a look at your `YOURNAME.github.io` repository. Did the index.html file in the main directory successfully update? Does it have the right commit message?
+
+### **If you don't see it or it's an older message:**
+
+Go back into that project in VS Code, open up the index.html file in the public directory and throw a space or an enter into the file somewhere (somewhere benign - between tags or something - don't break the code!). This is a weird little trick, but it will force GitHub to see a change in the file. _**THEN start over at the top of this tutorial.**_
+
+
+---
+
+## _**But wait a minute...**_
+I don't know about you, but I don't want to tell people to visit that URL...I want `chrismochinski.com`...I bet you want YOUR NAME dot com...right? RIGHT? Let's do it!!!
+
+## 7. Google Domains
+
+There are a number of places where you can score and redirect a domain. This, in my opinion, is the simplest.
+
+
+
+### That's it! I SINCERELY hope this helps some folks. Please don't hesitate to reach out to me if you have questions (or if you find any errors in the above 😃 )
+
+# _HAPPY HACKING!_
+
+<br />
+
+<img align="left" src="./mui-images/readme-signature-pic.png" alt="mo" style="width:115px;">
+
+
+_[My GitHub](https://github.com/chrismochinski)_ <br />
+_[My LinkedIn](https://www.linkedin.com/in/chrismochinski/)_ 
+_[My Twitter (@HolyMosesMusic)](https://twitter.com/holymosesmusic)_ <br />
+
+
